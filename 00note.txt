@@ -1,0 +1,6 @@
+
+t*.vdg is used terminal compartment; x?*.vdg is used by axon compartments
+
+
+
+

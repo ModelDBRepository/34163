@@ -1,0 +1,81 @@
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		>>    MODULES NAME: ntw		>>
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+>----------------------->------------------------------->
+  LIST_NEURONS:		>	List of Neurons		>
+>.......................>...............................>
+	mv              >	Neuron's name		>
+	mv.neu          >	File Name		>
+	green           >	Color Name		>
+>.......................>...............................>
+	soma            >	Neuron's name		>
+	soma.neu        >	File Name		>
+	red             >	Color Name		>
+>.......................>...............................>
+	axona            >	Neuron's name		>
+	axona.neu        >	File Name		>
+	pink            >	Color Name		>
+>.......................>...............................>
+>	axonb            >	Neuron's name		>
+>	axonb.neu        >	File Name		>
+>	pink            >	Color Name		>
+>.......................>...............................>
+>	axonc            >	Neuron's name		>
+>	axonc.neu        >	File Name		>
+>	pink            >	Color Name		>
+>.......................>...............................>
+>	term            >	Neuron's name		>
+>	term.neu        >	File Name		>
+>	pink            >	Color Name		>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  CHEMSYN:		>	Chemical synapse	>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  ELCTRCPL:		>	Electrical coupling	>
+>.......................>...............................>
+	mv              > Name of postsynaptic neuron	>
+	soma            > Name of presynaptic neuron	>
+	mv2soma.es      > File Name			>
+	green           > Color Name			>
+>.......................>...............................>
+	soma            > Name of postsynaptic neuron	>
+	axona           > Name of presynaptic neuron	>
+	soma2axona.es   > File Name			>
+	green           > Color Name			>
+>.......................>...............................>
+>	axona           > Name of postsynaptic neuron	>
+>	axonb           > Name of presynaptic neuron	>
+>	axona2axonb.es  > File Name			>
+>	green           > Color Name			>
+>.......................>...............................>
+>	axonb           > Name of postsynaptic neuron	>
+>	axonc           > Name of presynaptic neuron	>
+>	axonb2axonc.es  > File Name			>
+>	green           > Color Name			>
+>.......................>...............................>
+>	axonc           > Name of postsynaptic neuron	>
+>	term            > Name of presynaptic neuron	>
+>	axonc2term.es   > File Name			>
+>	green           > Color Name			>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+>----------------------->------------------------------->
+  MODULSYN:		>	Modulatory synapse	>
+>.......................>...............................>
+	END		>				>
+>----------------------->------------------------------->
+
+END

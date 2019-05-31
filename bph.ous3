@@ -1,0 +1,126 @@
+
+>------------------------------->--------------------------------------->
+  VAR_TO_GRAPH: 		>	List of current contributing	>
+				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	2			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		12          	>	Number of Tic Marks		>
+		0.0         	>	Min Value of X			>
+		24.0        	>	Max Value of X			>
+		black        	>	Color of Range			>
+Cion[Ca.axonb...]<{ivr}       	>	Var Name for Y-axis		>
+		5           	>	Number of Tic Marks		>
+		0.0         	>	Min Value of Y			>
+		200.0       	>	Max Value of Y			>
+		violet        	>	Color of RAnge			>
+	V[axonb....]<{ivr}    	>	Var Name for Y-axis		>
+		5           	>	Number of Tic Marks		>
+		-140.0      	>	Min Value of Y			>
+		20.0        	>	Max Value of Y			>
+		black         	>	Color of RAnge			>
+	V[soma....]<{ivr}     	>	Var Name for Y-axis		>
+		5           	>	Number of Tic Marks		>
+		-60.0       	>	Min Value of Y			>
+		100.0       	>	Max Value of Y			>
+		red           	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	2			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		12          	>	Number of Tic Marks		>
+		0.0         	>	Min Value of X			>
+		24.0        	>	Max Value of X			>
+		black        	>	Color of Range			>
+IVDxREG[Ikca.soma...]<{ivr}   	>	Var Name for Y-axis		>
+		4           	>	Number of Tic Marks		>
+		-2.0        	>	Min Value of Y			>
+		2.0         	>	Max Value of Y			>
+		green         	>	Color of RAnge			>
+Ivd[delayed.soma...]<{ivr}    	>	Var Name for Y-axis		>
+		2           	>	Number of Tic Marks		>
+		-1.0        	>	Min Value of Y			>
+		3.0         	>	Max Value of Y			>
+		black         	>	Color of RAnge			>
+	Ivd[A.soma...]<{ivr}  	>	Var Name for Y-axis		>
+		2           	>	Number of Tic Marks		>
+		-2.0        	>	Min Value of Y			>
+		2.0         	>	Max Value of Y			>
+		red           	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	2			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		12          	>	Number of Tic Marks		>
+		0.0         	>	Min Value of X			>
+		24.0        	>	Max Value of X			>
+		black        	>	Color of Range			>
+Ivd[sustained.soma...]<{ivr}  	>	Var Name for Y-axis		>
+		5           	>	Number of Tic Marks		>
+		-1.0        	>	Min Value of Y			>
+		1.0         	>	Max Value of Y			>
+		green         	>	Color of RAnge			>
+Ivd[Transient.soma...]<{ivr}  	>	Var Name for Y-axis		>
+		5           	>	Number of Tic Marks		>
+		-2.0        	>	Min Value of Y			>
+		2.0         	>	Max Value of Y			>
+		magenta       	>	Color of RAnge			>
+	Ivd[Na.axonb...]<{ivr}	>	Var Name for Y-axis		>
+		2           	>	Number of Tic Marks		>
+		-2.0        	>	Min Value of Y			>
+		2.0         	>	Max Value of Y			>
+		gold          	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL:		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	2			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		12          	>	Number of Tic Marks		>
+		0.0         	>	Min Value of X			>
+		24.0        	>	Max Value of X			>
+		black        	>	Color of Range			>
+Ivd[delayed.axonb...]<{ivr}   	>	Var Name for Y-axis		>
+		2           	>	Number of Tic Marks		>
+		-1.0        	>	Min Value of Y			>
+		1.0         	>	Max Value of Y			>
+		black         	>	Color of RAnge			>
+	Ivd[IR.soma...]<{ivr} 	>	Var Name for Y-axis		>
+		2           	>	Number of Tic Marks		>
+		-2.0        	>	Min Value of Y			>
+		2.0         	>	Max Value of Y			>
+		red           	>	Color of RAnge			>
+fbr[Ikca.Ca.axonb..]<{ivr}    	>	Var Name for Y-axis		>
+		1           	>	Number of Tic Marks		>
+		0.0         	>	Min Value of Y			>
+		0.5         	>	Max Value of Y			>
+		green         	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+>------------------------------->--------------------------------------->
+   VAR_TO_FILE: 		>	List of current contributing	>
+>				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	time<{ivr}             	>	VAR name			>
+	V[axonb....]<{ivr}     	>	VAR name			>
+	V[soma....]<{svr}      	>	VAR name			>
+>Cion[Ca.axonb...]<{ivr}       	>	Var Name for Y-axis		>
+Ivd[Na.axonb...]<{ivr}    	>	Var Name for Y-axis		>
+	Ivd[A.axonb...]<{ivr}  	>	Var Name for Y-axis		>
+Ivd[sustained.axonb...]<{ivr}  	>	Var Name for Y-axis		>
+Ivd[Transient.axonb...]<{ivr}  	>	Var Name for Y-axis		>
+Ivd[IR.axonb...]<{ivr} 	>	Var Name for Y-axis		>
+Ivd[delayed.axonb...]<{ivr}   	>	Var Name for Y-axis		>
+fbr[Ikca.Ca.axonb..]<{ivr}    	>	Var Name for Y-axis		>
+IVDxREG[Ikca.axonb...]<{ivr}   	>	Var Name for Y-axis		>
+>	V[mv....]<{svr}      	>	VAR name			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+END:

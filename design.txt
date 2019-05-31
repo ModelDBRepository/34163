@@ -1,0 +1,17 @@
+
+axon, 5.5 um, 150 um (one-end close, 2615)
+soma, 20 um, 45 um (cylinder, both ends open, 2827)
+microvilli, 20 um, 20 um (cylinder, one-end close), 
+    neck, 10 um, 10 um (serial conductance only)
+terminal, 10 um, 30 um
+
+conductances
+
+Dr	0.95
+Ia	2
+Ikca	0.05
+Ir	0 / 0.68
+Na	10
+Ca	0.005
+Cat	0.001
+leak	0.0005

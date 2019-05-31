@@ -1,0 +1,67 @@
+
+>------------------------------->--------------------------------------->
+  VAR_TO_GRAPH: 		>	List of current contributing	>
+				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL: 		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	2			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		15          	>	Number of Tic Marks		>
+		0.0         	>	Min Value of X			>
+		15.0        	>	Max Value of X			>
+		black        	>	Color of Range			>
+	V[axonb....]<{ivr}    	>	Var Name for Y-axis		>
+		9           	>	Number of Tic Marks		>
+		-70.0      	>	Min Value of Y			>
+		20.0        	>	Max Value of Y			>
+		black         	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL: 		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	2			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		15          	>	Number of Tic Marks		>
+		0.0         	>	Min Value of X			>
+		15.0        	>	Max Value of X			>
+		black        	>	Color of Range			>
+	V[soma....]<{ivr}     	>	Var Name for Y-axis		>
+		9           	>	Number of Tic Marks		>
+		-70.0       	>	Min Value of Y			>
+		20.0       	>	Max Value of Y			>
+		red           	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	GRPH_CHNL: 		>	Graph channel			>
+>------------------------------->--------------------------------------->
+	2			>	GAIN of Channel			>
+	time<{ivr}            	>	Var Name for X-axis		>
+		10          	>	Number of Tic Marks		>
+		7         	>	Min Value of X			>
+		9        	>	Max Value of X			>
+		black        	>	Color of Range			>
+	V[soma....]<{ivr}     	>	Var Name for Y-axis		>
+		10           	>	Number of Tic Marks		>
+		-70.0       	>	Min Value of Y			>
+		-20.0       	>	Max Value of Y			>
+		black         	>	Color of RAnge			>
+	V[axonb....]<{ivr}    	>	Var Name for Y-axis		>
+		10           	>	Number of Tic Marks		>
+		-70.0      	>	Min Value of Y			>
+		-20.0        	>	Max Value of Y			>
+		blue           	>	Color of RAnge			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+>------------------------------->--------------------------------------->
+   VAR_TO_FILE: 		>	List of current contributing	>
+>				>		to ion pools		>
+>------------------------------->--------------------------------------->
+	time<{ivr}             	>	VAR name			>
+>	V[axonb....]<{ivr}     	>	VAR name			>
+	V[soma....]<{svr}      	>	VAR name			>
+>------------------------------->--------------------------------------->
+	END:			>					>
+>------------------------------->--------------------------------------->
+
+END:
